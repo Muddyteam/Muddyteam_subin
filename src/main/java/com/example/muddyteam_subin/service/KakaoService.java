@@ -24,12 +24,6 @@ public class KakaoService {
 
     public ResponseEntity<KakaoLoginResponseDto> login(KakaoLoginRequestDto kakaoLoginRequestDto){
 
-        /*
-        * 1. User가 우리 서비스에 등록되어 있는지 확인하여 저장하거나 가져오기
-        * 2. 해당 userId를 가지고 Token을 만들어 Sessions 저장하기
-        *
-        * */
-
         UsersDto usersDto = UsersDto.builder()
             .username("kakao_" + kakaoLoginRequestDto.getId())
             .nickname(kakaoLoginRequestDto.getNickname())
