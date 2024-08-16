@@ -1,10 +1,9 @@
 package com.example.muddyteam_subin.controller;
 
-import com.example.muddyteam_subin.dto.kakao.request.KakaoLoginRequestDto;
-import com.example.muddyteam_subin.dto.kakao.response.KakaoLoginResponseDto;
+import com.example.muddyteam_subin.dto.controller.kakao.request.KakaoLoginRequestDto;
+import com.example.muddyteam_subin.dto.controller.kakao.response.KakaoLoginResponseDto;
 import com.example.muddyteam_subin.service.KakaoService;
 import lombok.RequiredArgsConstructor;
-import org.checkerframework.checker.units.qual.C;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

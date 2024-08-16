@@ -1,4 +1,4 @@
-package com.example.muddyteam_subin.dto.ocean.api.request;
+package com.example.muddyteam_subin.dto.controller.ocean.api.request;
 
 import lombok.*;
 
