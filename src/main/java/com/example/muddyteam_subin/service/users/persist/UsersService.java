@@ -21,6 +21,8 @@ public class UsersService {
         boolean check = usersRepository.existsByUsername(usersDto.getUsername());
         if (!check){
             UsersEntity usersEntity = usersMapper.toEntity(usersDto);
+            System.out.println(usersEntity.getNickname());
+            System.out.println(usersEntity.getUsername());
             return usersMapper.toDto(usersRepository.save(usersEntity));
         } else {
             return usersMapper.toDto(usersRepository.findByUsername(usersDto.getUsername())

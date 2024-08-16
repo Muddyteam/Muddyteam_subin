@@ -1,4 +1,4 @@
-package com.example.muddyteam_subin.dto.kakao.request;
+package com.example.muddyteam_subin.dto.controller.kakao.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,9 +13,10 @@ import lombok.ToString;
 @NoArgsConstructor
 @Builder
 @ToString
-public class KakaoLoginRequestDto {
-    private Long id;
-    private String nickname;
-    private String profileImage;
-    private String thumbnailImage;
+public class KakaoLoginResponseDto {
+
+    private String username;
+    private String accessToken;
+    private String refreshToken;
+
 }
