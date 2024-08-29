@@ -36,6 +36,12 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
+	// Google Cloud Dialogflow Client
+	implementation 'com.google.cloud:google-cloud-dialogflow:4.18.0'
+
+	// Jackson JSON Processor
+	implementation 'com.fasterxml.jackson.core:jackson-databind'
+
 	//Mapper
 	implementation 'org.mapstruct:mapstruct:1.5.5.Final'
 	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.5.Final'
