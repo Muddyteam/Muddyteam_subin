@@ -18,7 +18,7 @@ public class MudBioController {
     public String getMudBioInfo(
             // num:103까지 존재
             @RequestParam(value = "_type", defaultValue = "xml") String type,
-            @RequestParam(value = "numOfRows", defaultValue = "20") String numOfRows,
+            @RequestParam(value = "numOfRows", defaultValue = "103") String numOfRows,
             @RequestParam(value = "pageNo", defaultValue = "1") String pageNo) {
 
         return mudBioService.getMudBioInfo(type, numOfRows, pageNo);
