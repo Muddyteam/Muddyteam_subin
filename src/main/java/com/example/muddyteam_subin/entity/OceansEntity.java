@@ -3,8 +3,6 @@ package com.example.muddyteam_subin.entity;
 import com.example.muddyteam_subin.common.entity.BaseEntity;
 import jakarta.persistence.*;
 import lombok.*;
-import org.checkerframework.checker.units.qual.A;
-import org.checkerframework.checker.units.qual.C;
 import org.hibernate.annotations.Where;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 

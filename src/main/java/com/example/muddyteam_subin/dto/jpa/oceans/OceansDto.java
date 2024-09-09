@@ -1,7 +1,6 @@
 package com.example.muddyteam_subin.dto.jpa.oceans;
 
 import lombok.*;
-import org.checkerframework.checker.units.qual.A;
 import org.springframework.stereotype.Service;
 
 @Getter
